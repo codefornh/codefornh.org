@@ -1,43 +1,23 @@
-# Jekyll Starter Project
+# CodeForNH.org
 
-This is my starter project for Jekyll. It is my ideal initial setup that I can use to kick
-off other projects. It is not intended to be used without customization.
+This is the source for the CodeForNH.org website. It is 
 
-You may or may not find it useful depending on what your development preferences are. This
-is not meant to be one-size fits all.
+## Contributing
 
-## Features
+To create a local development environment:
 
-* Twitter Bootstrap 3
-* Asset Pipelining
-  * SASS
-  * Coffee script
-  * Minification
-* Amazon S3 deploy and pre-optimized configuration
-* Uses bundle for gems
-* Sitemap
-* RSS feed
-* Rake tasks for common chores
+1. Install Ruby and Bundle
+2. Clone the repo
+3. `bundle`
+4. `rake serve`
 
-### Roadmap
+This will run a local Jekyll server with the Code for New Hampshire website. You can also type `rake` and it will display a list of available tasks.
 
-* Styles for common blog elements
-* Favicon and mobile icons
-* More SEO
-
-## Quick Start
-
-1. Clone the repo
-2. `bundle`
-3. `rake config`
-4. Follow the on-screen instructions
-5. `rake deploy`
-
-You can also type `rake` and it will display a list of available tasks.
+When you are done making changes you can create a full request. Changes merged into master will be deployed to the Code for New Hampshire website.
 
 ## Acknowledgments and Licenses
 
-This project uses many plugins and ideas from other developers. In no particular order:
+This project is a fork of https://github.com/andrewcurioso/jekyll-start-project and contains several third-party plugins. In no particular order:
 
 **Jekyll**  
 MIT License  
