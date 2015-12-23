@@ -1,6 +1,6 @@
 # CodeForNH.org
 
-This is the source for the CodeForNH.org website. It is 
+This is the source for the CodeForNH.org website.
 
 ## Contributing
 
