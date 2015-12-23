@@ -1,5 +1,5 @@
 ---
-name: Your New Jekyll Site
+name: Code for New Hampshire
 markdown: redcarpet
 highlighter: pygments
 exclude:
@@ -13,3 +13,4 @@ sitemap:
   exclude:
   - /robots.txt
   - /feed.xml
+url: http://www.codefornh.org

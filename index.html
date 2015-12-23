@@ -1,13 +1,41 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: base
+title: Code for New Hampshire
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="hero">
+  <div class="container">
+    <h1>Code for New Hampshire <small>Live Free and Code</small></h1>
+  </div>
+</div>
+<div class="lead-info">
+  <div class="container">
+    <p>Code for New Hampshire is an <a class="help" href="/call-to-action/2015/12/08/welcome-code-for-new-hampshire.html"><span>unofficial</span> <i class="fa fa-question-circle"></i></a> Code for America Brigade, a group of volunteers that bring community members together to make government work better. <a href="https://www.codeforamerica.org/brigade/about/" class="help"><span>Watch a video at codeforamerica.org</span></a>.</p>
+  </div>
+</div>
+
+<div id="home" class="container">
+  <div class="row features">
+    <div class="col-sm-4">
+      <i class="fa fa-database"></i><br>
+      <h3>Open Data</h3>
+      <p>
+        Making government data and tax payer funded data readily available to New&nbsp;Hampshire residence.
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-mobile"></i><br>
+      <h3>Open Source</h3>
+      <p>
+        Open Source Apps available to the public for free and made to help the people in New&nbsp;Hampshire.
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa fa-users"></i>
+      <h3>Collaboration</h3>
+      <p>
+        Making the New&nbsp;Hampshire a better place through collaboration with government and the community.
+      </p>
+    </div>
+  </div>
 </div>
